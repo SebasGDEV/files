@@ -42,9 +42,9 @@ paths:
     get:
       tags:
         - pet
-      summary: Finds Pets by status
+      summary: Health
       description: Multiple status values can be provided with comma separated strings
-      operationId: findPetsByStatus
+      operationId: bhealth
 
       responses:
         "200":
